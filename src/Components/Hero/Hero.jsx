@@ -7,7 +7,7 @@ const Hero = () => {
     <div id="home" className="hero">
       <img src={profile} />
       <h1>
-        <span>I'm Yukta Tiwari</span> Frontend Developer.
+        <span>I'm Yukta Tiwari</span> Software Developer.
       </h1>
       <p>
         I am Yukta Tiwari, a B.Tech student in Electronics and Communication
@@ -21,10 +21,7 @@ const Hero = () => {
           </AnchorLink>
         </div>
         <div className="hero-resume">
-          <a
-            href="https://drive.google.com/file/d/1A1Zz4Ohz-ZffcZcUvtQy_nbw_dbH2Y4W/view?usp=sharing"
-            rel="noopener noreferrer"
-          >
+          <a href="https://drive.google.com/file/d/1Tx3bKugs8G0piRUrOhcAdU-LUvFle7bf/view">
             My Resume
           </a>
         </div>

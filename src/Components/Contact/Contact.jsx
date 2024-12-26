@@ -3,6 +3,7 @@ import "./Contact.css";
 import theme from "../../assets/theme_pattern.svg";
 import mail from "../../assets/mail_icon.svg";
 import call from "../../assets/call_icon.svg";
+import linkedin from "../../assets/linkedin.svg";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 
 const Contact = () => {
@@ -42,6 +43,15 @@ const Contact = () => {
             <div className="contact-detail">
               <img src={mail}></img>
               <p>yuktatiwari738@gmail.com</p>
+            </div>
+            <div className="contact-detail">
+              <img src={linkedin} />
+              <a
+                href="https://www.linkedin.com/in/yukta-tiwari-93972022b"
+                className="linkedin"
+              >
+                Linkedin
+              </a>
             </div>
             <div className="contact-detail">
               <img src={call} />
