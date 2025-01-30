@@ -1,4 +1,4 @@
-#root {
+/* #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -39,4 +39,104 @@
 
 .read-the-docs {
   color: #888;
+} */
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background: linear-gradient(135deg, #ff6f61, #ffcc00); /* Vibrant gradient */
+  color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #ff6f61aa); /* Bright coral shadow */
+  transform: scale(1.1);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #00ffccaa); /* Bright teal shadow */
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(255, 111, 97, 0.4); /* Coral shadow */
+}
+
+.read-the-docs {
+  color: #fff;
+  font-size: 0.9em;
+  transition: color 0.3s ease;
+}
+
+.read-the-docs:hover {
+  color: #00ffcc; /* Bright teal */
+}
+
+/* Vibrant Button Styles */
+.button {
+  background: linear-gradient(45deg, #ff6f61, #00ffcc); /* Coral to teal gradient */
+  color: white;
+  padding: 0.75em 1.5em;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(255, 111, 97, 0.3); /* Coral shadow */
+}
+
+/* Glow Effect for Headings */
+h1 {
+  font-size: 3em;
+  background: linear-gradient(45deg, #ff6f61, #00ffcc); /* Coral to teal gradient */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: glow 2s infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #ff6f61, 0 0 20px #ff6f61, 0 0 30px #ff6f61; /* Coral glow */
+  }
+  to {
+    text-shadow: 0 0 20px #00ffcc, 0 0 30px #00ffcc, 0 0 40px #00ffcc; /* Teal glow */
+  }
 }

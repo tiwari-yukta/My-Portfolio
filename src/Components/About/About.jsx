@@ -1,5 +1,6 @@
 import React from "react";
 import "./About.css";
+
 import theme from "../../assets/theme_pattern.svg";
 import profile from "../../assets/profile.jpg";
 const About = () => {
