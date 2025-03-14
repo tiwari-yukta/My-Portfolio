@@ -20,7 +20,7 @@ const Projects_Data = [
   "technologies": "React, Tailwind CSS",
   "description": "A quiz platform with categories like DSA, OS, DBMS, and CN.",
   "image": "https://images.unsplash.com/photo-1524678714210-9917a6c619c2?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHF1aXp8ZW58MHx8MHx8fDI%3D",
-  "link": "https://github.com/tiwari-yukta/quiz-platform"
+  "link": "https://rococo-marigold-5a1a2b.netlify.app/"
 }
 ,
   // {
