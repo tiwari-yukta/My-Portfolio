@@ -21,7 +21,7 @@ const Hero = () => {
           </AnchorLink>
         </div>
         <div className="hero-resume">
-          <a href="https://drive.google.com/file/d/1Rv1fedqFBFZPy28u_e0yGAeMyyWSGIZd/view?usp=drivesdk">
+          <a href="https://drive.google.com/file/d/1GY0itRbOnmSQVsINI4ZPDXTOGpSOG4Au/view?usp=sharing">
             My Resume
           </a>
         </div>
