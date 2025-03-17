@@ -4,6 +4,7 @@ import theme from "../../assets/theme_pattern.svg";
 import mail from "../../assets/mail_icon.svg";
 import call from "../../assets/call_icon.svg";
 import linkedin from "../../assets/linkedin.svg";
+import { FaGithub } from "react-icons/fa";
 
 const Contact = () => {
   return (
@@ -19,6 +20,13 @@ const Contact = () => {
             <div className="contact-detail">
               <img src={mail} alt="mail" />
               <p>yuktatiwari738@gmail.com</p>
+            </div>
+
+            <div className="contact-detail">
+              <a href="https://github.com/tiwari-yukta" className="github">
+                <FaGithub className="github-icon" size={34} />
+                tiwari-yukta
+              </a>
             </div>
             <div className="contact-detail">
               <img src={linkedin} alt="linkedin" />
